@@ -28,7 +28,7 @@ This repository contains comprehensive documentation from a one-month contract e
 
 ## 🎯 Main Deliverables
 
-These are the three primary outputs from the one-month assessment:
+These are the four primary outputs from the one-month assessment:
 
 ### 1. [📊 Final Report](reports/final-report.md)
 Comprehensive project report consolidating all findings, analysis, and recommendations. Will include executive summary, SWOT analysis summary, user needs assessment, technical findings, implementation roadmap, and budget estimates.
@@ -48,35 +48,31 @@ Detailed analysis of user requirements based on interviews across all department
 **Best for:** Product managers, business analysts, department heads, UX designers  
 **Status:** 📝 Template prepared (to be populated during assessment)
 
+### 4. [📋 Terms of Reference](terms-of-reference/terms-of-reference.md)
+Detailed Terms of Reference for the future system improvement project. Includes project scope, timeline, budget breakdown, resource requirements, deliverables, implementation plan, risk management, and acceptance criteria.
+
+**Best for:** Project managers, procurement teams, executive stakeholders, implementation partners  
+**Status:** 📝 Template prepared (to be populated during assessment)
+
 ---
 
 ## 📚 Complete Documentation Structure
 
-### Assessment Reports
+### Primary Deliverables
 
 | Document | Description | Link |
 |----------|-------------|------|
 | **Final Report** | Comprehensive assessment report with findings and recommendations | [View Report](reports/final-report.md) |
-| **SWOT Analysis** | Strengths, Weaknesses, Opportunities, and Threats analysis | [View SWOT](system-docs/swot.md) |
-
-### Technical Documentation
-
-| Document | Description | Link |
-|----------|-------------|------|
 | **System Technical Docs** | Complete technical documentation (architecture, database, APIs, deployment) | [View Docs](system-docs/technical-docs/index.md) |
-
-### User Research
-
-| Document | Description | Link |
-|----------|-------------|------|
 | **User Needs Specification** | Comprehensive user needs analysis and requirements | [View Specification](user-needs/user-needs-specification.md) |
-| **Interview Guide** | Structured interview questions and methodology used for user research | [View Guide](user-needs/interview-guide.md) |
+| **Terms of Reference** | Detailed ToR for future system improvement project (scope, timeline, budget, deliverables) | [View ToR](terms-of-reference/terms-of-reference.md) |
 
-### Project Planning
+### Supporting Documentation
 
 | Document | Description | Link |
 |----------|-------------|------|
-| **Terms of Reference** | Detailed ToR for future system improvement project (scope, timeline, budget, deliverables) | [View ToR](terms-of-reference/terms-of-reference.md) |
+| **SWOT Analysis** | Strengths, Weaknesses, Opportunities, and Threats analysis | [View SWOT](system-docs/swot.md) |
+| **Interview Guide** | Structured interview questions and methodology used for user research | [View Guide](user-needs/interview-guide.md) |
 
 ---
 
@@ -87,7 +83,7 @@ Detailed analysis of user requirements based on interviews across all department
 **Executive Leadership / Decision Makers:**
 1. Start with [Final Report - Executive Summary](reports/final-report.md#executive-summary)
 2. Review [SWOT Analysis](system-docs/swot.md) for strategic insights
-3. Check [Terms of Reference](terms-of-reference/terms-of-reference.md) for budget and timeline
+3. Check [Terms of Reference](terms-of-reference/terms-of-reference.md) for budget, timeline, and implementation planning
 
 **Technical Teams / Developers:**
 1. Begin with [System Technical Documentation](system-docs/technical-docs/index.md)
@@ -98,23 +94,35 @@ Detailed analysis of user requirements based on interviews across all department
 1. Start with [User Needs Specification](user-needs/user-needs-specification.md)
 2. Review pain points and feature requests
 3. Check priority matrix for implementation planning
+4. Reference [Terms of Reference](terms-of-reference/terms-of-reference.md) for project scope and deliverables
 
 **Department Heads / Operations:**
 1. Review [User Needs Specification](user-needs/user-needs-specification.md) for department-specific insights
 2. Check [Final Report - User Needs Assessment](reports/final-report.md#user-needs-assessment)
 3. Review recommended improvements affecting your department
 
+**Project Managers / Implementation Partners:**
+1. Start with [Terms of Reference](terms-of-reference/terms-of-reference.md) for complete project scope
+2. Review [Final Report](reports/final-report.md) for context and recommendations
+3. Reference [Technical Documentation](system-docs/technical-docs/index.md) for system details
+4. Check [User Needs Specification](user-needs/user-needs-specification.md) for requirements prioritization
+
 ### Document Relationships
 
 ```
-Final Report (Overview)
+Final Report (Overview & Synthesis)
     ├── References → SWOT Analysis
     ├── References → User Needs Specification
     ├── References → Technical Documentation
     └── Informs → Terms of Reference
 
-Terms of Reference (Future Project)
-    └── Based on → All assessment documents
+Terms of Reference (Future Implementation Project)
+    └── Based on → All assessment findings
+
+Supporting Documents
+    ├── SWOT Analysis → Feeds into Final Report
+    ├── Interview Guide → Methodology for User Needs
+    └── User Needs → Drives Technical Recommendations
 ```
 
 ---
