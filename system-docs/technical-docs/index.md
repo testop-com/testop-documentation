@@ -10,7 +10,7 @@ permalink: /system-docs/technical-docs/
 **Document Version:** 1.0  
 **Date:** [Date]  
 **Prepared by:** [Your Name]  
-**Company:** TEST-TOP
+**Company:** TES-TOP
 
 ---
 

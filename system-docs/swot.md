@@ -5,7 +5,8 @@ permalink: /system-docs/swot/
 ---
 
 # SWOT Analysis Report
-## [System Name] - TEST-TOP
+
+## [System Name] - TES-TOP
 
 **Document Version:** 1.0  
 **Date:** [Date]  
@@ -21,6 +22,7 @@ permalink: /system-docs/swot/
 ---
 
 ## Table of Contents
+
 1. [SWOT Overview](#swot-overview)
 2. [Strengths](#strengths)
 3. [Weaknesses](#weaknesses)
@@ -54,6 +56,7 @@ permalink: /system-docs/swot/
 ```
 
 ### 1.2 Analysis Methodology
+
 - **Technical Review:** [Scope of code and infrastructure review]
 - **User Feedback:** [Number of users consulted]
 - **Industry Benchmarks:** [Comparison standards used]
@@ -68,6 +71,7 @@ permalink: /system-docs/swot/
 ### 2.1 Technical Strengths
 
 #### S1: [Strength Title]
+
 - **Category:** Technical/Functional/Performance
 - **Impact Level:** High/Medium/Low
 - **Description:** [Detailed description of the strength]
@@ -76,27 +80,32 @@ permalink: /system-docs/swot/
 - **Sustainability:** [How easily this strength can be maintained]
 
 **Example:**
+
 - Specific metric or quote: [Data point]
 - User benefit: [Concrete example]
 
 ---
 
 #### S2: [Strength Title]
+
 [Repeat structure for each strength]
 
 ---
 
 ### 2.2 Functional Strengths
+
 [Strengths related to features and functionality]
 
 ### 2.3 Organizational Strengths
+
 [Strengths related to team, processes, documentation]
 
 ### 2.4 Strengths Summary Table
-| # | Strength | Category | Impact | Leverage Potential |
-|---|----------|----------|--------|-------------------|
-| S1 | [Brief description] | Technical | High | High |
-| S2 | [Brief description] | Functional | Medium | Medium |
+
+| #   | Strength            | Category   | Impact | Leverage Potential |
+| --- | ------------------- | ---------- | ------ | ------------------ |
+| S1  | [Brief description] | Technical  | High   | High               |
+| S2  | [Brief description] | Functional | Medium | Medium             |
 
 ---
 
@@ -107,6 +116,7 @@ permalink: /system-docs/swot/
 ### 3.1 Technical Weaknesses
 
 #### W1: [Weakness Title]
+
 - **Category:** Technical/Performance/Security/UX
 - **Severity:** Critical/High/Medium/Low
 - **Impact:** [Who/what is affected]
@@ -117,6 +127,7 @@ permalink: /system-docs/swot/
 - **Estimated Fix Effort:** [Time/resources needed]
 
 **Risk Assessment:**
+
 - **Probability of causing issues:** High/Medium/Low
 - **Potential impact if not addressed:** [Description]
 - **Urgency:** Immediate/Short-term/Long-term
@@ -124,20 +135,25 @@ permalink: /system-docs/swot/
 ---
 
 #### W2: [Weakness Title]
+
 [Repeat structure for each weakness]
 
 ---
 
 ### 3.2 Performance Weaknesses
+
 [Issues related to speed, scalability, efficiency]
 
 ### 3.3 Security Weaknesses
+
 [Vulnerabilities and security gaps]
 
 ### 3.4 Usability Weaknesses
+
 [UX and user experience issues]
 
 ### 3.5 Process Weaknesses
+
 [Issues with workflows, documentation, maintenance]
 
 ### 3.6 Weaknesses Priority Matrix
@@ -167,6 +183,7 @@ Low Priority (Monitor):
 ### 4.1 Technology Opportunities
 
 #### O1: [Opportunity Title]
+
 - **Category:** Technology/Business/Market/Integration
 - **Potential Impact:** High/Medium/Low
 - **Description:** [What the opportunity is]
@@ -178,32 +195,37 @@ Low Priority (Monitor):
 - **Risk Level:** High/Medium/Low
 
 **Success Criteria:**
+
 - [Measurable outcome 1]
 - [Measurable outcome 2]
 
 ---
 
 #### O2: [Opportunity Title]
+
 [Repeat structure for each opportunity]
 
 ---
 
 ### 4.2 Business Opportunities
+
 [Opportunities to improve business processes, efficiency, revenue]
 
 ### 4.3 Integration Opportunities
+
 [Potential integrations with other systems or tools]
 
 ### 4.4 Innovation Opportunities
+
 [Emerging technologies or approaches that could be adopted]
 
 ### 4.5 Opportunities Evaluation Matrix
 
-| Opportunity | Impact | Effort | ROI | Priority |
-|-------------|--------|--------|-----|----------|
-| O1: [Title] | High | Medium | High | P1 |
-| O2: [Title] | Medium | Low | High | P1 |
-| O3: [Title] | High | High | Medium | P2 |
+| Opportunity | Impact | Effort | ROI    | Priority |
+| ----------- | ------ | ------ | ------ | -------- |
+| O1: [Title] | High   | Medium | High   | P1       |
+| O2: [Title] | Medium | Low    | High   | P1       |
+| O3: [Title] | High   | High   | Medium | P2       |
 
 ---
 
@@ -214,6 +236,7 @@ Low Priority (Monitor):
 ### 5.1 Technical Threats
 
 #### T1: [Threat Title]
+
 - **Category:** Technical/Security/Compliance/Market
 - **Probability:** High/Medium/Low
 - **Potential Impact:** Critical/High/Medium/Low
@@ -229,20 +252,25 @@ Low Priority (Monitor):
 ---
 
 #### T2: [Threat Title]
+
 [Repeat structure for each threat]
 
 ---
 
 ### 5.2 Security Threats
+
 [Vulnerabilities, data breaches, unauthorized access risks]
 
 ### 5.3 Technology Threats
+
 [Obsolescence, compatibility issues, technical debt]
 
 ### 5.4 Compliance & Legal Threats
+
 [Regulatory changes, data protection requirements]
 
 ### 5.5 Operational Threats
+
 [Dependency risks, single points of failure, maintenance challenges]
 
 ### 5.6 Threat Risk Matrix
@@ -269,7 +297,9 @@ LOW PROBABILITY / LOW IMPACT (Accept Risk):
 ### 6.1 TOWS Matrix (Strategic Options)
 
 #### Leverage Strengths to Exploit Opportunities (SO Strategies)
+
 1. **[Strategy Name]**
+
    - **Strength Used:** [S#]
    - **Opportunity Targeted:** [O#]
    - **Action:** [What to do]
@@ -281,6 +311,7 @@ LOW PROBABILITY / LOW IMPACT (Accept Risk):
 ---
 
 #### Use Strengths to Mitigate Threats (ST Strategies)
+
 1. **[Strategy Name]**
    - **Strength Used:** [S#]
    - **Threat Addressed:** [T#]
@@ -290,6 +321,7 @@ LOW PROBABILITY / LOW IMPACT (Accept Risk):
 ---
 
 #### Address Weaknesses to Capture Opportunities (WO Strategies)
+
 1. **[Strategy Name]**
    - **Weakness to Fix:** [W#]
    - **Opportunity Enabled:** [O#]
@@ -299,6 +331,7 @@ LOW PROBABILITY / LOW IMPACT (Accept Risk):
 ---
 
 #### Minimize Weaknesses to Avoid Threats (WT Strategies - Defensive)
+
 1. **[Strategy Name]**
    - **Weakness to Address:** [W#]
    - **Threat to Avoid:** [T#]
@@ -310,6 +343,7 @@ LOW PROBABILITY / LOW IMPACT (Accept Risk):
 ### 6.2 Competitive Position Analysis
 
 **Current State:**
+
 - **Strengths vs. Weaknesses Ratio:** [X strengths : Y weaknesses]
 - **Overall Health Score:** [Rating/10]
 - **Critical Risk Areas:** [Number of critical items]
@@ -325,14 +359,17 @@ LOW PROBABILITY / LOW IMPACT (Accept Risk):
 ### 6.3 Key Insights
 
 #### Critical Success Factors
+
 1. **[Factor]:** [Why it matters and current status]
 2. **[Factor]:** [Why it matters and current status]
 
 #### Main Vulnerabilities
+
 1. **[Vulnerability]:** [Impact and urgency]
 2. **[Vulnerability]:** [Impact and urgency]
 
 #### Strategic Priorities
+
 1. **[Priority]:** [Rationale]
 2. **[Priority]:** [Rationale]
 3. **[Priority]:** [Rationale]
@@ -344,6 +381,7 @@ LOW PROBABILITY / LOW IMPACT (Accept Risk):
 ### 7.1 Immediate Actions (0-3 months)
 
 #### Action 1: [Action Title]
+
 - **Type:** Fix Weakness / Leverage Strength / Mitigate Threat
 - **SWOT Items Addressed:** [S#/W#/O#/T#]
 - **Description:** [What needs to be done]
@@ -357,14 +395,17 @@ LOW PROBABILITY / LOW IMPACT (Accept Risk):
 ---
 
 #### Action 2: [Action Title]
+
 [Repeat structure]
 
 ---
 
 ### 7.2 Short-Term Actions (3-6 months)
+
 [List of actions with brief descriptions]
 
 ### 7.3 Long-Term Actions (6-12+ months)
+
 [List of strategic initiatives]
 
 ### 7.4 Prioritized Roadmap
@@ -391,28 +432,30 @@ Phase 3: Transformation (Month 7-12)
 
 ### 7.5 Resource Allocation
 
-| Phase | Budget | Team Size | Key Skills Needed |
-|-------|--------|-----------|-------------------|
-| Phase 1 | $[X] | [N] people | [Skills list] |
-| Phase 2 | $[X] | [N] people | [Skills list] |
-| Phase 3 | $[X] | [N] people | [Skills list] |
-| **Total** | **$[X]** | | |
+| Phase     | Budget   | Team Size  | Key Skills Needed |
+| --------- | -------- | ---------- | ----------------- |
+| Phase 1   | $[X]     | [N] people | [Skills list]     |
+| Phase 2   | $[X]     | [N] people | [Skills list]     |
+| Phase 3   | $[X]     | [N] people | [Skills list]     |
+| **Total** | **$[X]** |            |                   |
 
 ### 7.6 Risk Management Plan
 
-| Risk | Probability | Impact | Mitigation | Owner |
-|------|-------------|--------|------------|-------|
+| Risk   | Probability  | Impact       | Mitigation | Owner  |
+| ------ | ------------ | ------------ | ---------- | ------ |
 | [Risk] | High/Med/Low | High/Med/Low | [Strategy] | [Name] |
 
 ### 7.7 Success Metrics & KPIs
 
 **System Health Metrics:**
+
 - [ ] Reduce critical vulnerabilities from [N] to [N] by [Date]
 - [ ] Improve user satisfaction score from [X]% to [Y]% by [Date]
 - [ ] Decrease average response time from [X]s to [Y]s by [Date]
 - [ ] Achieve [X]% uptime by [Date]
 
 **Business Impact Metrics:**
+
 - [ ] Reduce processing time by [X]% for [Process]
 - [ ] Increase adoption rate from [X]% to [Y]%
 - [ ] Decrease support tickets by [X]%
@@ -422,23 +465,29 @@ Phase 3: Transformation (Month 7-12)
 ## Appendices
 
 ### Appendix A: Detailed Evidence
+
 [Supporting data, charts, metrics for each SWOT item]
 
 ### Appendix B: Stakeholder Feedback
+
 [Quotes and feedback organized by SWOT category]
 
 ### Appendix C: Technical Assessment Details
+
 [In-depth technical analysis results]
 
 ### Appendix D: Comparison Analysis
+
 [Benchmarking data against similar systems or industry standards]
 
 ### Appendix E: Cost-Benefit Analysis
+
 [Financial projections for recommended actions]
 
 ---
 
 **Document Review Schedule:**
+
 - **Next Review Date:** [Date]
 - **Review Frequency:** Quarterly
 - **Owner:** [Name/Role]

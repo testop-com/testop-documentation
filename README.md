@@ -2,7 +2,7 @@
 ## One-Month Internal System Analysis & Documentation
 
 **Project Duration:** One Month (October 13 - November 13, 2025)  
-**Organization:** TEST-TOP  
+**Organization:** TES-TOP  
 **Status:** 📅 Starting Soon  
 **Project Start Date:** Monday, October 13, 2025  
 **Last Updated:** October 10, 2025
@@ -318,7 +318,7 @@ For questions about this documentation or the assessment:
 
 ## 📄 License & Confidentiality
 
-This documentation is proprietary to TEST-TOP and contains confidential information about internal systems. Access is restricted to authorized stakeholders only.
+This documentation is proprietary to TES-TOP and contains confidential information about internal systems. Access is restricted to authorized stakeholders only.
 
 ---
 

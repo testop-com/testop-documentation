@@ -6,7 +6,7 @@ permalink: /terms-of-reference/terms-of-reference/
 
 # Terms of Reference (ToR)
 ## System Improvement and Enhancement Project
-### [System Name] - TEST-TOP
+### [System Name] - TES-TOP
 
 **Document Version:** 1.0  
 **Date:** [Date]  
