@@ -1,0 +1,38 @@
+# GitHub Pages Configuration for TEST-OP Documentation
+
+# Site settings
+title: TEST-OP System Assessment Project
+description: One-Month Internal System Analysis & Documentation
+baseurl: "" # Leave empty if using custom domain, otherwise set to /repository-name
+url: "" # Your GitHub Pages URL
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal # You can change this to another GitHub-supported theme
+
+# Exclude from processing
+exclude:
+  - .gitignore
+  - README.md.backup
+  - "*.plan.md"
+
+# Plugins
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+
+# Optional: Enable relative links
+relative_links:
+  enabled: true
+  collections: false
+
+# Optional: Enable titles from headings
+titles_from_headings:
+  enabled: true
+  strip_title: false
+  collections: false
+
+# Force rebuild on push
+incremental: false
+
