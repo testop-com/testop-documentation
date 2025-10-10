@@ -3,8 +3,8 @@
 # Site settings
 title: TEST-OP System Assessment
 description: One-Month Internal System Analysis & Documentation
-baseurl: "" # Leave empty if using custom domain, otherwise set to /repository-name
-url: "" # Your GitHub Pages URL
+baseurl: "/test-op-docs" # Repository name for GitHub Pages
+url: "https://tecmoza.github.io" # Your GitHub Pages URL
 
 # Logo (optional - you can add a logo image later)
 # logo: /assets/images/logo.png
