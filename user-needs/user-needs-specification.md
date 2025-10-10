@@ -1,3 +1,9 @@
+---
+layout: default
+title: User Needs Specification
+permalink: /user-needs/user-needs-specification/
+---
+
 # User Needs Analysis Report
 ## [System Name] - TEST-TOP
 

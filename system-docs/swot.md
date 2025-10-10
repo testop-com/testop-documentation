@@ -1,3 +1,9 @@
+---
+layout: default
+title: SWOT Analysis
+permalink: /system-docs/swot/
+---
+
 # SWOT Analysis Report
 ## [System Name] - TEST-TOP
 

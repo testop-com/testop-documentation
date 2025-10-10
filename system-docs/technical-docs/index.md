@@ -1,3 +1,9 @@
+---
+layout: default
+title: System Technical Documentation
+permalink: /system-docs/technical-docs/
+---
+
 # Technical Documentation
 ## [System Name] - Internal Information System
 

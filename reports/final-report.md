@@ -1,3 +1,9 @@
+---
+layout: default
+title: Final Report
+permalink: /reports/final-report/
+---
+
 # Final Project Report
 ## System Assessment and Improvement Recommendations
 ### [System Name] - TEST-TOP

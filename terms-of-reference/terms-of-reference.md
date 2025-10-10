@@ -1,3 +1,9 @@
+---
+layout: default
+title: Terms of Reference
+permalink: /terms-of-reference/terms-of-reference/
+---
+
 # Terms of Reference (ToR)
 ## System Improvement and Enhancement Project
 ### [System Name] - TEST-TOP
