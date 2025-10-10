@@ -277,7 +277,7 @@ This section tracks weekly progress throughout the one-month assessment period.
 ## 📁 Repository Structure
 
 ```
-test-op-docs/
+testop-documentation/
 ├── README.md                          # This file - main navigation hub
 ├── reports/
 │   └── final-report.md               # Comprehensive final assessment report
