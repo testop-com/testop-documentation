@@ -1,4 +1,4 @@
-# TEST-OP System Assessment Project
+# TES-TOP System Assessment Project
 ## One-Month Internal System Analysis & Documentation
 
 **Project Duration:** One Month (October 13 - November 13, 2025)  
@@ -161,7 +161,7 @@ This one-month engagement will include:
 
 ### System Under Assessment
 
-- **System:** TEST-OP Internal Information System
+- **System:** TES-TOP Internal Information System
 - **Technology Stack:** Laravel, MySQL, JavaScript
 - **Current Users:** Multiple departments
 - **Assessment Period:** One month

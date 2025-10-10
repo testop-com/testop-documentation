@@ -1,7 +1,7 @@
-# GitHub Pages Configuration for TEST-OP Documentation
+# GitHub Pages Configuration for TES-TOP Documentation
 
 # Site settings
-title: TEST-OP System Assessment
+title: TES-TOP System Assessment
 description: One-Month Internal System Analysis & Documentation
 baseurl: "/testop-documentation" # Repository name for GitHub Pages
 url: "https://tecmoza.github.io" # Your GitHub Pages URL
