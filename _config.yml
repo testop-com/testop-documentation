@@ -1,26 +1,46 @@
 # GitHub Pages Configuration for TEST-OP Documentation
 
 # Site settings
-title: TEST-OP System Assessment Project
+title: TEST-OP System Assessment
 description: One-Month Internal System Analysis & Documentation
 baseurl: "" # Leave empty if using custom domain, otherwise set to /repository-name
 url: "" # Your GitHub Pages URL
 
+# Logo (optional - you can add a logo image later)
+# logo: /assets/images/logo.png
+
+# Organization
+organization: TEST-TOP
+
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal # You can change this to another GitHub-supported theme
+remote_theme: pages-themes/cayman@v0.2.0 # Professional, clean theme perfect for documentation
+
+# Kramdown settings for better markdown processing
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
 
 # Exclude from processing
 exclude:
   - .gitignore
   - README.md.backup
   - "*.plan.md"
+  - GITHUB-PAGES-SETUP.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
 
 # Plugins
 plugins:
   - jekyll-relative-links
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
+  - jekyll-seo-tag
 
 # Optional: Enable relative links
 relative_links:
@@ -33,6 +53,12 @@ titles_from_headings:
   strip_title: false
   collections: false
 
+# SEO settings
+twitter:
+  card: summary
+
 # Force rebuild on push
 incremental: false
 
+# Show page edit dates
+show_downloads: false

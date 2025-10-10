@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    {% seo %}
+
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"
+    />
+
+    <!-- Favicon (optional - you can add later) -->
+    <!-- <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}"> -->
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="site-nav">
+      <div class="nav-container">
+        <a href="{{ '/' | relative_url }}" class="nav-home">🏠 Home</a>
+        <div class="nav-links">
+          <a
+            href="{{ '/reports/final-report' | relative_url }}"
+            class="nav-link"
+            >📊 Final Report</a
+          >
+          <a
+            href="{{ '/system-docs/technical-docs/' | relative_url }}"
+            class="nav-link"
+            >🔧 Technical Docs</a
+          >
+          <a
+            href="{{ '/user-needs/user-needs-specification' | relative_url }}"
+            class="nav-link"
+            >👥 User Needs</a
+          >
+          <a
+            href="{{ '/terms-of-reference/terms-of-reference' | relative_url }}"
+            class="nav-link"
+            >📋 ToR</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <h1 class="project-name">
+        {{ site.title | default: site.github.repository_name }}
+      </h1>
+      <h2 class="project-tagline">
+        {{ site.description | default: site.github.project_tagline }}
+      </h2>
+      {% if site.github.is_project_page %}
+      <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      {% endif %} {% if page.show_downloads %}
+      <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+      <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+      {% endif %}
+    </section>
+
+    <!-- Breadcrumbs -->
+    {% if page.url != "/" %}
+    <section class="breadcrumb-section">
+      <div class="main-content">
+        <nav class="breadcrumb" aria-label="breadcrumb">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          {% assign crumbs = page.url | split: '/' %} {% assign crumb_path = ''
+          %} {% for crumb in crumbs offset: 1 %} {% if forloop.last %}
+          <span> / </span>
+          <span class="active"
+            >{{ page.title | default: crumb | replace: '-', ' ' | replace: '_',
+            ' ' | capitalize }}</span
+          >
+          {% else %} {% assign crumb_path = crumb_path | append: '/' | append:
+          crumb %}
+          <span> / </span>
+          <a href="{{ crumb_path | relative_url }}"
+            >{{ crumb | replace: '-', ' ' | replace: '_', ' ' | capitalize }}</a
+          >
+          {% endif %} {% endfor %}
+        </nav>
+      </div>
+    </section>
+    {% endif %}
+
+    <!-- Main Content -->
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <hr />
+        <p>
+          <strong>{{ site.organization | default: 'TEST-TOP' }}</strong> | Last
+          Updated: {{ site.time | date: '%B %d, %Y' }}
+        </p>
+        {% if site.github.is_project_page %}
+        <p class="footer-note">
+          This project is maintained by
+          <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
+        </p>
+        {% endif %}
+        <p class="footer-note">
+          <a href="{{ '/' | relative_url }}">Back to Documentation Home</a>
+        </p>
+      </footer>
+    </main>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop" title="Back to top">↑ Top</a>
+
+    <!-- Simple Back to Top Script -->
+    <script>
+      // Back to top button
+      var backToTopButton = document.getElementById("backToTop");
+
+      window.onscroll = function () {
+        if (
+          document.body.scrollTop > 300 ||
+          document.documentElement.scrollTop > 300
+        ) {
+          backToTopButton.style.display = "block";
+        } else {
+          backToTopButton.style.display = "none";
+        }
+      };
+
+      backToTopButton.onclick = function (e) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
+    </script>
+  </body>
+</html>
