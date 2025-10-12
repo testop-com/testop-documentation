@@ -37,6 +37,14 @@ Escolha o formato que preferir para aceder ao plano de trabalho completo:
   </div>
   
   <div class="card">
+    <h3>📕 Formato PDF</h3>
+    <p>Descarregue o plano de trabalho em formato PDF para visualização e impressão</p>
+    <a href="https://github.com/tecmoza/testop-documentation/raw/main/PLANO-DE-TRABALHO.pdf" class="btn">
+      📥 Descarregar PDF
+    </a>
+  </div>
+  
+  <div class="card">
     <h3>📝 Formato Markdown (.md)</h3>
     <p>Descarregue o ficheiro markdown original para processamento personalizado</p>
     <a href="https://github.com/tecmoza/testop-documentation/raw/main/PLANO-DE-TRABALHO.md" class="btn">
@@ -52,10 +60,6 @@ Escolha o formato que preferir para aceder ao plano de trabalho completo:
     </a>
   </div>
 </div>
-
-<blockquote style="margin-top: 1.5rem; padding: 1rem; background: #e3f2fd; border-left: 4px solid #2196f3;">
-  <strong>💡 Dica para criar PDF:</strong> Abra o ficheiro Word (.docx) no Microsoft Word e exporte como PDF através de <strong>Ficheiro → Exportar → Criar PDF/XPS</strong>
-</blockquote>
 
 ---
 
