@@ -27,54 +27,34 @@ Este é o **Plano de Trabalho completo** para o projeto de avaliação do sistem
 
 Escolha o formato que preferir para aceder ao plano de trabalho completo:
 
-### 🌐 Visualizar Online
-
 <div class="deliverable-cards">
   <div class="card">
-    <h3>📖 Versão Web (Markdown)</h3>
-    <p>Visualize o plano de trabalho diretamente no navegador com formatação completa</p>
-    <a href="https://github.com/tecmoza/testop-documentation/blob/main/PLANO-DE-TRABALHO.md" class="btn" target="_blank">
-      Ver no GitHub
+    <h3>📄 Formato Word (.docx)</h3>
+    <p>Descarregue o plano de trabalho em formato Microsoft Word pronto para edição e partilha</p>
+    <a href="https://github.com/tecmoza/testop-documentation/raw/main/PLANO-DE-TRABALHO.docx" class="btn">
+      📥 Descarregar Word
     </a>
   </div>
-</div>
-
-### 📥 Descarregar Documentos
-
-<div class="deliverable-cards">
+  
   <div class="card">
     <h3>📝 Formato Markdown (.md)</h3>
-    <p>Descarregue o ficheiro markdown original - pode ser convertido para Word ou PDF</p>
+    <p>Descarregue o ficheiro markdown original para processamento personalizado</p>
     <a href="https://github.com/tecmoza/testop-documentation/raw/main/PLANO-DE-TRABALHO.md" class="btn">
-      Descarregar Markdown
+      📥 Descarregar Markdown
     </a>
   </div>
   
   <div class="card">
-    <h3>📄 Converter para Word</h3>
-    <p>Abra o ficheiro markdown no Microsoft Word e guarde como .docx</p>
-    <p style="font-size: 0.85rem; color: #757575; margin-top: 0.5rem;">
-      <strong>Passos:</strong><br>
-      1. Descarregue o .md acima<br>
-      2. Abra no Word<br>
-      3. Guarde Como → Word (.docx)
-    </p>
-  </div>
-  
-  <div class="card">
-    <h3>📕 Converter para PDF</h3>
-    <p>Use o Word para exportar o documento como PDF</p>
-    <p style="font-size: 0.85rem; color: #757575; margin-top: 0.5rem;">
-      <strong>Passos:</strong><br>
-      1. Abra o .docx no Word<br>
-      2. Ficheiro → Exportar → PDF<br>
-      3. Guarde o PDF
-    </p>
+    <h3>📖 Versão Web (GitHub)</h3>
+    <p>Visualize o plano de trabalho diretamente no navegador com formatação GitHub</p>
+    <a href="https://github.com/tecmoza/testop-documentation/blob/main/PLANO-DE-TRABALHO.md" class="btn" target="_blank">
+      🌐 Ver no GitHub
+    </a>
   </div>
 </div>
 
-<blockquote style="margin-top: 1.5rem; padding: 1rem; background: #fff3cd; border-left: 4px solid #ffc107;">
-  <strong>💡 Dica:</strong> Para criar versões Word e PDF automaticamente, pode usar ferramentas como o Pandoc ou conversores online como <a href="https://www.markdowntopdf.com/" target="_blank">markdowntopdf.com</a>
+<blockquote style="margin-top: 1.5rem; padding: 1rem; background: #e3f2fd; border-left: 4px solid #2196f3;">
+  <strong>💡 Dica para criar PDF:</strong> Abra o ficheiro Word (.docx) no Microsoft Word e exporte como PDF através de <strong>Ficheiro → Exportar → Criar PDF/XPS</strong>
 </blockquote>
 
 ---
