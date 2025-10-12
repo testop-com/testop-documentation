@@ -300,6 +300,88 @@ hr {
   margin-top: 2rem;
 }
 
+.deliverable-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.deliverable-cards .card {
+  background: white;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.deliverable-cards .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  border-color: var(--primary-color);
+}
+
+.deliverable-cards .card h3 {
+  background: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  border: none;
+  font-size: 1.25rem;
+  color: var(--primary-color);
+}
+
+.deliverable-cards .card p {
+  color: var(--text-light);
+  margin-bottom: 1.25rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.deliverable-cards .card .btn {
+  display: inline-block;
+  background: var(--primary-color);
+  color: white !important;
+  padding: 0.65rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.deliverable-cards .card .btn:hover {
+  background: var(--secondary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.navigation-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.navigation-links .btn {
+  background: var(--bg-light);
+  color: var(--text-dark) !important;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.navigation-links .btn:hover {
+  background: var(--primary-color);
+  color: white !important;
+  border-color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
 /* Week Cards */
 .main-content h4 {
   background: linear-gradient(135deg, var(--bg-light) 0%, white 100%);
