@@ -17,6 +17,72 @@
 
 Este plano de trabalho delineia o compromisso abrangente de um mês para avaliar, analisar, compreender e avaliar o sistema interno TES-TOP. O projeto entregará quatro entregas principais fornecendo aos stakeholders insights acionáveis e recomendações para melhoria do sistema.
 
+**⚠️ Nota Importante:** Este projeto será realizado em circunstâncias desafiantes, nomeadamente a **ausência de documentação técnica existente** e a **indisponibilidade da equipa de desenvolvimento original** para colaboração. A abordagem de avaliação foi adaptada para ser independente, utilizando engenharia reversa, análise de código-fonte e pesquisa intensiva com utilizadores para reconstruir o conhecimento do sistema.
+
+---
+
+## Contexto e Restrições do Projeto
+
+### Situação Atual
+
+**Restrições Identificadas:**
+
+1. **Ausência de Documentação Técnica**
+
+   - O sistema TES-TOP não possui documentação técnica formal
+   - Não existem diagramas de arquitetura, manuais técnicos ou guias de desenvolvimento
+   - A documentação de código-fonte é limitada ou inexistente
+   - Não há histórico documentado de decisões de design ou arquitetura
+
+2. **Indisponibilidade da Equipa de Desenvolvimento Original**
+
+   - A equipa de desenvolvimento que criou o sistema não está disponível para colaboração
+   - Existem conflitos entre a equipa de desenvolvimento e a empresa TES-TOP
+   - Não será possível obter esclarecimentos diretos sobre decisões técnicas ou funcionamento interno
+   - O conhecimento tácito sobre o sistema não está acessível
+
+3. **Conhecimento Institucional Limitado**
+   - O conhecimento sobre o sistema reside principalmente nos utilizadores finais
+   - Pode haver funcionalidades não documentadas ou comportamentos não óbvios
+   - Histórico de problemas e soluções pode estar disperso ou perdido
+
+### Impacto nas Entregas
+
+Estas restrições impactam significativamente a abordagem do projeto:
+
+- **Maior tempo dedicado à engenharia reversa** do código e sistema
+- **Dependência crítica de ferramentas de análise automática** de código
+- **Ênfase aumentada na pesquisa com utilizadores** como fonte primária de conhecimento
+- **Necessidade de reconstruir a documentação desde o zero** através de análise direta
+- **Possíveis lacunas no conhecimento técnico** que precisarão ser documentadas como áreas de risco
+
+### Abordagem Adaptada
+
+Para mitigar estas restrições, o projeto adotará:
+
+1. **Análise Forense de Código**
+
+   - Uso extensivo de ferramentas de análise estática de código
+   - Mapeamento sistemático de dependências e fluxos de dados
+   - Identificação de padrões arquiteturais através do código
+
+2. **Engenharia Reversa Estruturada**
+
+   - Reconstrução de diagramas de arquitetura através da análise do código
+   - Documentação de APIs através de inspeção de rotas e controllers
+   - Mapeamento de esquema de base de dados através de migrations e models
+
+3. **Pesquisa Intensiva com Utilizadores**
+
+   - Maior número de entrevistas para compensar falta de documentação técnica
+   - Foco em capturar conhecimento tácito e casos de uso não documentados
+   - Mapeamento de fluxos de trabalho através da experiência do utilizador
+
+4. **Análise de Histórico de Sistema**
+   - Revisão de logs de sistema e histórico de tickets de suporte
+   - Análise de histórico de commits no repositório de código
+   - Identificação de padrões de uso através de dados de analytics (se disponíveis)
+
 ---
 
 ## Objetivos do Projeto
@@ -135,11 +201,13 @@ Este plano de trabalho delineia o compromisso abrangente de um mês para avaliar
 - **Envolvimento:** Entrevistas e inquéritos da Semana 2
 - **Revisão de Entregas:** Resumo da Especificação de Necessidades dos Utilizadores
 
-#### 5. Líder da Equipa de Desenvolvimento
+#### 5. Administrador de Sistemas / Equipa de TI Interna
 
-- **Papel:** Orientação técnica e acesso ao código-fonte
-- **Envolvimento:** Configuração do sistema da Semana 1, consultoria técnica contínua
-- **Revisão de Entregas:** Documentação Técnica do Sistema
+- **Papel:** Fornecimento de acesso técnico ao sistema e infraestrutura
+- **Envolvimento:** Configuração de acessos na Semana 1, suporte técnico conforme necessário
+- **Revisão de Entregas:** Documentação Técnica do Sistema (validação de infraestrutura)
+
+**⚠️ Nota:** A equipa de desenvolvimento original não está disponível para colaboração devido a conflitos existentes. O projeto prosseguirá de forma independente utilizando engenharia reversa e análise direta do código-fonte.
 
 ---
 
@@ -169,10 +237,12 @@ Este plano de trabalho delineia o compromisso abrangente de um mês para avaliar
 ### Semana 1: Contactos Iniciais
 
 - [ ] Diretor de TI/CTO - Acesso ao sistema e briefing técnico
-- [ ] Líder da Equipa de Desenvolvimento - Apresentação do código-fonte
 - [ ] Coordenador do Projeto - Logística e agendamento
-- [ ] Administrador de Base de Dados - Acesso à base de dados e documentação
-- [ ] Administrador de Sistema - Visão geral da infraestrutura
+- [ ] Administrador de Sistemas - Acesso ao sistema, base de dados e infraestrutura
+- [ ] Equipa de TI Interna - Configuração de acessos e ambientes
+- [ ] Responsável por Suporte Técnico - Histórico de problemas e tickets
+
+**Nota:** Equipa de desenvolvimento original não disponível - análise será baseada em código-fonte e engenharia reversa.
 
 ### Semana 2: Entrevistas com Utilizadores (Sessões Agendadas)
 
@@ -204,18 +274,22 @@ Este plano de trabalho delineia o compromisso abrangente de um mês para avaliar
 #### Acesso ao Sistema
 
 - [ ] **Acesso ao Ambiente de Produção** (Somente leitura)
+
   - Propósito: Exploração e teste do sistema
   - Necessário até: Semana 1, Dia 1
 
 - [ ] **Acesso ao Ambiente de Desenvolvimento** (Acesso completo)
+
   - Propósito: Revisão de código e análise técnica
   - Necessário até: Semana 1, Dia 1
 
 - [ ] **Acesso à Base de Dados** (Somente leitura)
+
   - Propósito: Análise de esquema e revisão de estrutura de dados
   - Necessário até: Semana 1, Dia 2
 
 - [ ] **Acesso ao Repositório de Controlo de Versão** (Somente leitura)
+
   - Propósito: Revisão de código e análise do histórico de commits
   - Necessário até: Semana 1, Dia 1
 
@@ -238,20 +312,25 @@ Este plano de trabalho delineia o compromisso abrangente de um mês para avaliar
 
 #### Da Equipa TES-TOP
 
-- **Líder da Equipa de Desenvolvimento:** 5-10 horas total
-  - Semana 1: Apresentação do sistema (3 horas)
-  - Semana 2-3: Questões técnicas conforme necessário (2-7 horas)
+- **Administrador de Sistemas / TI:** 8-12 horas total
 
-- **Administrador de Base de Dados:** 2-4 horas
-  - Semana 1: Visão geral da base de dados (2 horas)
-  - Semana 2: Questões de acompanhamento (2 horas)
+  - Semana 1: Configuração de acessos e visão geral da infraestrutura (4-6 horas)
+  - Semana 2-3: Suporte técnico e esclarecimentos conforme necessário (4-6 horas)
 
-- **Coordenador do Projeto:** 20-30 horas total
-  - Contínuo: Coordenação de reuniões, ligação com stakeholders
+- **Responsável por Suporte Técnico:** 3-5 horas
 
-- **Utilizadores do Sistema:** 30-40 horas total (entre todos os utilizadores)
-  - Semana 2: Entrevistas com utilizadores (20-30 horas)
-  - Semana 3: Sessões de acompanhamento (10 horas)
+  - Semana 1: Partilha de histórico de tickets e problemas comuns (2-3 horas)
+  - Semana 2: Acompanhamento e esclarecimentos (1-2 horas)
+
+- **Coordenador do Projeto:** 25-35 horas total
+
+  - Contínuo: Coordenação de reuniões, ligação com stakeholders, facilitação de acessos
+
+- **Utilizadores do Sistema:** 40-50 horas total (entre todos os utilizadores)
+  - Semana 2: Entrevistas com utilizadores (30-40 horas) - **aumentado devido à falta de documentação**
+  - Semana 3: Sessões de acompanhamento e validação (10 horas)
+
+**⚠️ Nota Importante:** O tempo de utilizadores é maior do que o normal devido à ausência de documentação técnica e indisponibilidade da equipa de desenvolvimento. Os utilizadores serão a fonte primária de conhecimento sobre funcionalidades e comportamentos do sistema.
 
 #### Recursos de Consultoria (Sua Equipa)
 
@@ -267,16 +346,23 @@ Este plano de trabalho delineia o compromisso abrangente de um mês para avaliar
 
 #### A Ser Fornecido pela TES-TOP
 
-- [ ] Documentação existente do sistema (se houver)
-- [ ] Diagramas de arquitetura
-- [ ] Documentação do esquema da base de dados
-- [ ] Manuais do utilizador ou materiais de formação
-- [ ] Relatórios de avaliação anteriores
-- [ ] Roteiro atual do sistema ou backlog
-- [ ] Histórico de tickets de suporte (últimos 6 meses)
-- [ ] Métricas de desempenho do sistema
-- [ ] Informações de licença de utilizador
-- [ ] Documentação de integração
+**⚠️ Documentação Inexistente:** O sistema não possui documentação técnica formal. Os itens abaixo representam informações que, se existirem, serão úteis:
+
+- [ ] ❌ Documentação técnica do sistema (**NÃO EXISTE**)
+- [ ] ❌ Diagramas de arquitetura (**NÃO EXISTE**)
+- [ ] ❌ Documentação do esquema da base de dados (**NÃO EXISTE**)
+- [ ] ❌ Manuais técnicos ou guias de desenvolvimento (**NÃO EXISTE**)
+- [ ] Manuais do utilizador ou materiais de formação (se existirem)
+- [ ] Histórico de tickets de suporte (últimos 6-12 meses) - **CRÍTICO**
+- [ ] Logs de sistema e registos de erros - **CRÍTICO**
+- [ ] Métricas de desempenho do sistema (se disponíveis)
+- [ ] Informações de licenças de software utilizadas
+- [ ] Histórico de commits do repositório de código - **CRÍTICO**
+- [ ] Credenciais e acessos aos ambientes (produção, staging, desenvolvimento)
+- [ ] Informações sobre integrações externas (se existirem)
+- [ ] Backups da base de dados para análise
+
+**Prioridades:** Dado que não existe documentação, o foco será em obter acesso ao código-fonte, base de dados, logs de sistema e histórico de tickets de suporte.
 
 #### A Ser Criado pelo Consultor
 
@@ -315,46 +401,55 @@ Este plano de trabalho delineia o compromisso abrangente de um mês para avaliar
 
 #### Atividades Diárias
 
-**Dia 1 (Segunda-feira) - Início do Projeto**
+**Dia 1 (Segunda-feira) - Início do Projeto e Configuração de Acessos**
 
 - 9:00: Reunião de início com Patrocinador do Projeto e Diretor de TI
-- 10:00: Obter acesso ao sistema e credenciais
-- 11:00: Configuração do ambiente (desenvolvimento, staging, acesso à produção)
-- 13:00: Exploração inicial do sistema
-- 15:00: Revisão da documentação existente
+- 10:00: Reunião com Administrador de Sistemas - obtenção de acessos técnicos
+- 11:00: Configuração de ambientes (desenvolvimento, staging, acesso à produção)
+- 13:00: Clone do repositório de código-fonte e configuração local
+- 15:00: Exploração inicial do sistema como utilizador
+- 16:00: Revisão de histórico de tickets de suporte disponíveis
 - **Entrega:** Notas do início do projeto, checklist de acesso concluída
+- **Desafio:** Sem documentação ou briefing técnico disponível - início por engenharia reversa
 
-**Dia 2 (Terça-feira) - Visão Geral Técnica**
+**Dia 2 (Terça-feira) - Análise Forense do Código**
 
-- 9:00: Reunião com Líder da Equipa de Desenvolvimento - apresentação do código-fonte
-- 11:00: Revisão da estrutura da base de dados com DBA
-- 13:00: Iniciar exploração do repositório de código
-- 15:00: Documentar pilha tecnológica
-- **Entrega:** Documentação inicial da pilha tecnológica
+- 9:00: Análise da estrutura de diretórios e organização do código
+- 10:00: Identificação da pilha tecnológica através de ficheiros de configuração
+- 11:00: Inspeção direta do esquema da base de dados
+- 13:00: Exploração do repositório de código e histórico de commits
+- 15:00: Documentação inicial da pilha tecnológica identificada
+- 16:00: Identificação de dependências e bibliotecas utilizadas
+- **Entrega:** Documentação inicial da pilha tecnológica (reconstruída através de análise)
 
-**Dia 3 (Quarta-feira) - Análise de Arquitetura**
+**Dia 3 (Quarta-feira) - Engenharia Reversa da Arquitetura**
 
-- 9:00: Revisão da arquitetura do sistema
-- 11:00: Documentação de endpoints de API
-- 13:00: Análise do esquema da base de dados
-- 15:00: Avaliação da infraestrutura
-- **Entrega:** Rascunho de visão geral da arquitetura
+- 9:00: Mapeamento de fluxos de dados através do código
+- 11:00: Documentação de rotas e endpoints de API (através de inspeção de código)
+- 13:00: Reconstrução do esquema da base de dados e relacionamentos
+- 15:00: Identificação de padrões arquiteturais utilizados
+- 16:00: Avaliação da infraestrutura através de configurações
+- **Entrega:** Rascunho de visão geral da arquitetura (reconstruída)
 
-**Dia 4 (Quinta-feira) - Início da Revisão de Código**
+**Dia 4 (Quinta-feira) - Análise Profunda do Código**
 
-- 9:00: Iniciar revisão detalhada de código (módulos principais)
-- 11:00: Identificar áreas de dívida técnica
-- 13:00: Revisão inicial de avaliação de segurança
-- 15:00: Configuração de análise de desempenho
-- **Entrega:** Checklist de revisão de código, registo de descobertas iniciais
+- 9:00: Revisão detalhada de módulos principais e controllers
+- 10:30: Análise de models e lógica de negócio
+- 11:30: Identificação de áreas de dívida técnica através de code smells
+- 13:00: Análise de segurança (configurações, autenticação, autorização)
+- 15:00: Configuração de ferramentas de análise estática de código
+- 16:00: Execução de análise automática de código
+- **Entrega:** Checklist de revisão de código, relatório de análise estática
 
-**Dia 5 (Sexta-feira) - Encerramento da Semana 1**
+**Dia 5 (Sexta-feira) - Consolidação e Planeamento**
 
-- 9:00: Continuar revisão de código
-- 11:00: Compilar descobertas da Semana 1
-- 13:00: Preparar agendamento de entrevistas para Semana 2
+- 9:00: Análise de resultados de ferramentas automáticas
+- 10:30: Compilação de descobertas técnicas da Semana 1
+- 11:30: Identificação de lacunas de conhecimento para pesquisa com utilizadores
+- 13:00: Preparação de guia de entrevista adaptado (foco em funcionalidades não documentadas)
+- 14:00: Agendamento detalhado de entrevistas para Semana 2
 - 15:00: Atualização de status semanal com Ponto Focal
-- **Entregas:** Relatório resumido da Semana 1, agendamento de entrevistas, descobertas preliminares
+- **Entregas:** Relatório resumido da Semana 1, guia de entrevista, lista de lacunas identificadas
 
 #### Marcos da Semana 1
 
@@ -367,9 +462,10 @@ Este plano de trabalho delineia o compromisso abrangente de um mês para avaliar
 #### Envolvimento de Stakeholders
 
 - Patrocinador do Projeto: Reunião de início
-- Diretor de TI: Briefing técnico
-- Líder da Equipa de Desenvolvimento: Apresentação do sistema
-- Coordenador do Projeto: Coordenação diária
+- Diretor de TI: Briefing sobre contexto e restrições do projeto
+- Administrador de Sistemas: Configuração de acessos e suporte técnico
+- Coordenador do Projeto: Coordenação diária e facilitação de acessos
+- **Nota:** Equipa de desenvolvimento original não envolvida - trabalho independente
 
 ---
 
@@ -709,6 +805,36 @@ Este plano de trabalho delineia o compromisso abrangente de um mês para avaliar
 - **Mitigação:** Definição clara de âmbito, processo de solicitação de mudanças, alinhamento regular com stakeholders
 - **Contingência:** Documentar itens fora do âmbito para fases futuras
 
+#### Risco 6: Lacunas de Conhecimento Críticas
+
+- **Impacto:** Alto - Ausência de documentação pode deixar áreas técnicas não compreendidas
+- **Probabilidade:** Alta
+- **Mitigação:** 
+  - Uso extensivo de ferramentas de análise automática
+  - Pesquisa intensiva com utilizadores para capturar conhecimento tácito
+  - Documentação explícita de áreas com lacunas de conhecimento
+- **Contingência:** Identificar e documentar áreas que requerem atenção futura ou investigação adicional
+
+#### Risco 7: Código Legado Sem Comentários ou Padrões
+
+- **Impacto:** Médio - Dificulta compreensão e análise
+- **Probabilidade:** Alta (sem documentação, provavelmente sem boas práticas de código)
+- **Mitigação:**
+  - Ferramentas de análise de complexidade de código
+  - Tempo adicional para engenharia reversa
+  - Validação de compreensão através de testes práticos
+- **Contingência:** Priorizar documentação de componentes críticos, aceitar nível de detalhe limitado em componentes secundários
+
+#### Risco 8: Informações Críticas Apenas na Memória da Equipa de Desenvolvimento
+
+- **Impacto:** Alto - Conhecimento de decisões de design e comportamentos específicos pode estar perdido
+- **Probabilidade:** Alta
+- **Mitigação:**
+  - Análise detalhada de histórico de commits e mensagens
+  - Pesquisa com utilizadores de longa data para capturar conhecimento histórico
+  - Análise de tickets de suporte para identificar comportamentos históricos
+- **Contingência:** Documentar limitações conhecidas e recomendações para futura investigação
+
 ---
 
 ## Critérios de Sucesso
@@ -775,12 +901,12 @@ Este plano de trabalho delineia o compromisso abrangente de um mês para avaliar
 
 ## Tabela Resumida de Entregas
 
-| #   | Entrega                                     | Data de Entrega        | Público Principal             | Status       |
-| --- | ------------------------------------------- | ---------------------- | ----------------------------- | ------------ |
-| 1   | **Relatório Final de Avaliação**            | Semana 4, Dia 8 (13 Nov) | Todos os Stakeholders         | 📋 Agendado  |
-| 2   | **Documentação Técnica do Sistema**         | Semana 3, Dia 5 (6 Nov)  | Equipa Técnica                | 📋 Agendado  |
-| 3   | **Especificação de Necessidades dos Utilizadores** | Semana 3, Dia 3 (4 Nov) | Equipa de Produto/Negócio | 📋 Agendado |
-| 4   | **Termos de Referência**                    | Semana 4, Dia 3 (11 Nov) | Patrocinadores do Projeto     | 📋 Agendado  |
+| #   | Entrega                                            | Data de Entrega          | Público Principal         | Status      |
+| --- | -------------------------------------------------- | ------------------------ | ------------------------- | ----------- |
+| 1   | **Relatório Final de Avaliação**                   | Semana 4, Dia 8 (13 Nov) | Todos os Stakeholders     | 📋 Agendado |
+| 2   | **Documentação Técnica do Sistema**                | Semana 3, Dia 5 (6 Nov)  | Equipa Técnica            | 📋 Agendado |
+| 3   | **Especificação de Necessidades dos Utilizadores** | Semana 3, Dia 3 (4 Nov)  | Equipa de Produto/Negócio | 📋 Agendado |
+| 4   | **Termos de Referência**                           | Semana 4, Dia 3 (11 Nov) | Patrocinadores do Projeto | 📋 Agendado |
 
 ### Entregas de Suporte
 
@@ -847,11 +973,10 @@ Este plano de trabalho delineia o compromisso abrangente de um mês para avaliar
 
 **Histórico de Alterações:**
 
-| Versão | Data             | Autor       | Alterações                        |
-| ------ | ---------------- | ----------- | --------------------------------- |
+| Versão | Data              | Autor      | Alterações                       |
+| ------ | ----------------- | ---------- | -------------------------------- |
 | 1.0    | 12 de Out de 2025 | [Seu Nome] | Plano de trabalho inicial criado |
 
 ---
 
 **Fim do Documento**
-
