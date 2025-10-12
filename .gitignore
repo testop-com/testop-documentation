@@ -8,6 +8,10 @@ _site/
 *.backup
 *.bak
 
+# Word temporary files
+~$*.docx
+~$*.doc
+
 # OS files
 .DS_Store
 Thumbs.db
