@@ -809,7 +809,7 @@ Para mitigar estas restrições, o projeto adotará:
 
 - **Impacto:** Alto - Ausência de documentação pode deixar áreas técnicas não compreendidas
 - **Probabilidade:** Alta
-- **Mitigação:** 
+- **Mitigação:**
   - Uso extensivo de ferramentas de análise automática
   - Pesquisa intensiva com utilizadores para capturar conhecimento tácito
   - Documentação explícita de áreas com lacunas de conhecimento
