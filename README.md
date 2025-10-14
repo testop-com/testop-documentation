@@ -95,6 +95,7 @@ Detailed Terms of Reference for the future system improvement project. Includes 
 2. Review pain points and feature requests
 3. Check priority matrix for implementation planning
 4. Reference [Terms of Reference](terms-of-reference/terms-of-reference.md) for project scope and deliverables
+5. Use [Interview Guides](user-needs/interview-guide/) for stakeholder research
 
 **Department Heads / Operations:**
 1. Review [User Needs Specification](user-needs/user-needs-specification.md) for department-specific insights
@@ -152,6 +153,12 @@ This one-month engagement will include:
 - Observation sessions
 - Feedback surveys
 - Usage pattern analysis
+
+**Interview Strategy:**
+- [Guias de Entrevista](user-needs/interview-guide/) - Estratégia completa
+- [Programadores Internos](user-needs/interview-guide-programmers/) - Arquitetura e tecnologias
+- [Stakeholders](user-needs/interview-guide-stakeholders/) - Necessidades de negócio
+- [Dicas Especiais](user-needs/interview-tips-programmers/) - Abordagem para situação delicada
 
 **Documentation:**
 - Code review and documentation
