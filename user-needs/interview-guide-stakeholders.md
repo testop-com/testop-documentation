@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Guia de Entrevista - Stakeholders
-permalink: /user-needs/interview-guide-stakeholders/
+permalink: /user-needs/interview-guide/interview-guide-stakeholders/
 ---
 
 # Guia de Entrevista - Stakeholders
@@ -10,11 +10,11 @@ permalink: /user-needs/interview-guide-stakeholders/
 
 ### 📋 Informações da Entrevista
 
-- **Data:** ****\_\_\_****
-- **Entrevistador:** ****\_\_\_****
-- **Entrevistado:** ****\_\_\_****
-- **Cargo/Departamento:** ****\_\_\_****
-- **Tempo usando o sistema:** ****\_\_\_****
+- **Data:** \***\*\_\_\_\*\***
+- **Entrevistador:** \***\*\_\_\_\*\***
+- **Entrevistado:** \***\*\_\_\_\*\***
+- **Cargo/Departamento:** \***\*\_\_\_\*\***
+- **Tempo usando o sistema:** \***\*\_\_\_\*\***
 
 ---
 
@@ -166,16 +166,16 @@ permalink: /user-needs/interview-guide-stakeholders/
 
 ### **Informações Demográficas**
 
-- **Idade:** ****\_\_\_****
-- **Formação:** ****\_\_\_****
-- **Experiência com tecnologia:** ****\_\_\_****
-- **Departamento:** ****\_\_\_****
+- **Idade:** \***\*\_\_\_\*\***
+- **Formação:** \***\*\_\_\_\*\***
+- **Experiência com tecnologia:** \***\*\_\_\_\*\***
+- **Departamento:** \***\*\_\_\_\*\***
 
 ### **Padrão de Uso**
 
-- **Horário preferido:** ****\_\_\_****
-- **Local de trabalho:** ****\_\_\_****
-- **Dispositivo principal:** ****\_\_\_****
+- **Horário preferido:** \***\*\_\_\_\*\***
+- **Local de trabalho:** \***\*\_\_\_\*\***
+- **Dispositivo principal:** \***\*\_\_\_\*\***
 
 ---
 
@@ -195,26 +195,18 @@ permalink: /user-needs/interview-guide-stakeholders/
 
 -
 -
--
-
-**Funcionalidades Mais Valorizadas:**
+- **Funcionalidades Mais Valorizadas:**
 
 -
 -
--
-
-**Sugestões de Melhoria:**
+- **Sugestões de Melhoria:**
 
 -
 -
--
-
-**Impacto no Negócio:**
+- **Impacto no Negócio:**
 
 -
 -
--
-
----
+- ***
 
 _Este guia deve ser adaptado conforme o tipo de stakeholder (gestor vs utilizador final) e departamento específico._

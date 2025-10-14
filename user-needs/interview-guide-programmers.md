@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Guia de Entrevista - Programadores Internos
-permalink: /user-needs/interview-guide-programmers/
+permalink: /user-needs/interview-guide/interview-guide-programmers/
 ---
 
 # Guia de Entrevista - Programadores Internos
@@ -10,11 +10,11 @@ permalink: /user-needs/interview-guide-programmers/
 
 ### 📋 Informações da Entrevista
 
-- **Data:** ****\_\_\_****
-- **Entrevistador:** ****\_\_\_****
-- **Programador:** ****\_\_\_****
-- **Cargo/Função:** ****\_\_\_****
-- **Tempo no projeto:** ****\_\_\_****
+- **Data:** \***\*\_\_\_\*\***
+- **Entrevistador:** \***\*\_\_\_\*\***
+- **Programador:** \***\*\_\_\_\*\***
+- **Cargo/Função:** \***\*\_\_\_\*\***
+- **Tempo no projeto:** \***\*\_\_\_\*\***
 
 ---
 
@@ -219,20 +219,14 @@ permalink: /user-needs/interview-guide-programmers/
 
 -
 -
--
-
-**Problemas Identificados:**
+- **Problemas Identificados:**
 
 -
 -
--
-
-**Próximos Passos:**
+- **Próximos Passos:**
 
 -
 -
--
-
----
+- ***
 
 _Este guia deve ser adaptado conforme as respostas e o contexto específico de cada programador entrevistado._

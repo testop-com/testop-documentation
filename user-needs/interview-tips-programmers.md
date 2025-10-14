@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dicas para Entrevistas com Programadores
-permalink: /user-needs/interview-tips-programmers/
+permalink: /user-needs/interview-guide/interview-tips-programmers/
 ---
 
 # 🎯 Dicas para Entrevistas com Programadores Internos
