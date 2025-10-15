@@ -14,6 +14,7 @@ permalink: /user-needs/
 
 1. **[Visão Geral](interview-guide/)** - Estratégia e priorização de entrevistas
 2. **[Programadores Internos](interview-guide-programmers/)** - Foco técnico e arquitetural
+   - 📥 **[Download Word](GUIA-ENTREVISTA-PROGRAMADORES.docx)** - Versão editável
 3. **[Stakeholders](interview-guide-stakeholders/)** - Gestores e utilizadores finais
 4. **[Dicas Especiais](interview-tips-programmers/)** - Abordagem para situação delicada
 
