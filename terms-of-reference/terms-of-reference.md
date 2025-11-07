@@ -8,6 +8,8 @@ permalink: /terms-of-reference/terms-of-reference/
 ## System Improvement and Enhancement Project
 ### [System Name] - TES-TOP
 
+[💾 Download em Word (.docx)]({{ '/terms-of-reference/TERMS-OF-REFERENCE.docx' | relative_url }})
+
 **Document Version:** 1.0  
 **Date:** [Date]  
 **Project Duration:** [Start Date] - [End Date]  
